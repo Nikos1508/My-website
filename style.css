@@ -246,12 +246,78 @@ body {
   }
 }
 
+
+/* About me english page (all the items, 1# div) */
 #about_me {
   margin-top: 15vw;
-  margin-left: 20vw;
+  margin-left: 5vw;
   padding-left: 1vw;
   padding-top: 0.5vw;
   padding-right: 1vw;
   position: absolute;
-  background: violet;
+  background: #4d6b89;
+  border-radius: 15px;
+}
+
+#right_cells_1{
+  font-size: 24px;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-left:2px solid rgb(180, 222, 255);
+}
+
+#left_cells_1{
+  font-size: 24px;
+  padding-right: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#right_cells_2{
+  font-size: 24px;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-left:2px solid rgb(180, 222, 255);
+  border-top:2px solid rgb(180, 222, 255);
+}
+
+#left_cells_2{
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top:2px solid rgb(180, 222, 255);
+  border-top:2px solid rgb(180, 222, 255);
+}
+
+/* Spinners in the grades*/
+.loader {
+  border: 6px solid #f3f3f3; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2.5s linear infinite;
+  float: right;
+  position:  absolute;
+  margin-left: 35.5vw;
+  margin-top: -3.3vw;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+img {
+  border-radius: 10px;
+}
+
+#paragraphs_projects {
+  width: 600px;
+}
+
+#awards {
+  font-size: 18px;
 }
