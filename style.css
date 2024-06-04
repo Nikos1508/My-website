@@ -38,7 +38,7 @@
 nav {
   margin: 27px auto 0;
   position: absolute;
-  width: 77vw;
+  width: 75.5vw;
   height: 75px;
   background-color: #34495e;
   border-radius: 8px;
@@ -320,4 +320,48 @@ img {
 
 #awards {
   font-size: 18px;
+}
+
+#easter-egg {
+  color: #2c3e50;
+  position: absolute;
+  margin-top: 130vw;
+}
+
+#contact_table {
+  margin-top: 15vw;
+  margin-left: 13vw;
+  padding-left: 3vw;
+  padding-top: 2vw;
+  position: absolute;
+  background: #4d6b89;
+  border-radius: 15px;
+}
+
+#icon_l {
+  padding-bottom: 4vw;
+  padding-bottom: 4vw;
+  padding-top: 3vw;
+}
+#icon_r {
+  padding-left: 27vw;
+  padding-bottom: 4vw;
+  padding-top: 3vw;
+}
+#details_l {
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+  padding-top: 3vw;
+}
+#details_r {
+  padding-right: 6vw;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+  padding-top: 3vw;
+}
+
+
+td{
+  color: blanchedalmond;
+  font-size: 20px;
 }
